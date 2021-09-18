@@ -44,6 +44,7 @@ if __name__ == "__main__":
     files = ["Stealth2.png", "Stealth1.png", "Farsight.png", "Frostfang.png",
              "Harrow.png", "Runesteel.png",  "Vision.png", "Targon.png",
              "BlackMistScyth.png", "BulwarkOfTheMountain.png", "PauldronsOfWhiterock.png",
-             "ShardOfTrueIce.png", "VigilantWardstone.png", "WatchfullWardstone.png"]
+             "ShardOfTrueIce.png", "VigilantWardstone.png", "WatchfullWardstone.png",
+             "ScarecrowEffigy.py"]
     looker = WardLooker(files)
     looker.run()
