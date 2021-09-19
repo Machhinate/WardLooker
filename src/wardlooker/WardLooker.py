@@ -38,13 +38,3 @@ class WardLooker:
 
     def play_alert(self):
         winsound.PlaySound(self.sound_file, winsound.SND_FILENAME)
-
-
-if __name__ == "__main__":
-    files = ["Stealth2.png", "Stealth1.png", "Farsight.png", "Frostfang.png",
-             "Harrow.png", "Runesteel.png",  "Vision.png", "Targon.png",
-             "BlackMistScyth.png", "BulwarkOfTheMountain.png", "PauldronsOfWhiterock.png",
-             "ShardOfTrueIce.png", "VigilantWardstone.png", "WatchfullWardstone.png",
-             "ScarecrowEffigy.png"]
-    looker = WardLooker(files)
-    looker.run()
