@@ -1,3 +1,3 @@
 # WardLooker
-![Tests](https://https://github.com/Machhinate/WardLooker/actions/workflows/tests.yml/badge.svg)
-##pip install -e . --user
+![Tests](https://github.com/Machhinate/WardLooker/actions/workflows/tests.yml/badge.svg)
+
