@@ -5,7 +5,7 @@ import winsound
 
 class WardLooker:
     def __init__(self, file_list,
-                 sound_file="alert.wav", confidence=0.85):
+                 sound_file="alert.wav", confidence=0.7):
         self.pings = 0
         self.files = file_list
         self.sound_file = sound_file
@@ -24,7 +24,7 @@ class WardLooker:
         sightings = []
 
         for file in self.files:
-            if locateOnScreen(file, confidence=0.85):
+            if locateOnScreen(file, confidence=self.confidence):
                 sightings.append(file)
 
         if not sightings:
@@ -45,6 +45,6 @@ if __name__ == "__main__":
              "Harrow.png", "Runesteel.png",  "Vision.png", "Targon.png",
              "BlackMistScyth.png", "BulwarkOfTheMountain.png", "PauldronsOfWhiterock.png",
              "ShardOfTrueIce.png", "VigilantWardstone.png", "WatchfullWardstone.png",
-             "ScarecrowEffigy.py"]
+             "ScarecrowEffigy.png"]
     looker = WardLooker(files)
     looker.run()
