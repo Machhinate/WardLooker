@@ -1,4 +1,4 @@
-from src.wardlooker.WardLooker import WardLooker
+from wardlooker.WardLooker import WardLooker
 
 
 def test_ward_looker():

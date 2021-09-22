@@ -31,7 +31,8 @@ class WardLooker:
             return
 
         for sighting in sightings:
-            print(f"unspent {sighting.split('.')[0]} charges")
+            icon = sighting.split('\\')[1].split('.')[0]
+            print(f"unspent {icon} charges")
 
         self.pings += 20
         self.play_alert()
